@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: "fonti1";
+            src: url("fonts/Inter-VariableFont_opsz\,wght.ttf");
+        }
+        .container {
+            width: 380px;
+            height: 535px;
+            background-color: #414141;
+            border: 2px dashed;
+            border-color: #FFD43A;
+            margin: auto;
+            margin-top: 57px;
+            font-family: "fonti1";
+        
+        }
+
+        input[type="text"] {
+        width: 315px;
+        height: 45px;
+        background-color: #A9A9A9;
+        border-color: #E0E0E0;
+        border: 1px solid;
+        border-radius: 4px;
+        margin-left: 25px;
+        outline: none;
+      }
+
+      .label1 {
+        margin-left: 25px;
+        color: white;
+      }
+
+      input::placeholder {
+        color: #FFD43A;
+      }
+
+      input[type^="num"] {
+        width: 315px;
+        height: 45px;
+        background-color: #A9A9A9;
+        border-color: #E0E0E0;
+        border: 1px solid;
+        border-radius: 4px;
+        margin-left: 25px;
+        outline: none;
+
+      }
+
+      .label2 {
+        margin-left: 25px;
+        color: white;
+      }
+
+      input::placeholder {
+        color: #FFD43A;
+      }
+
+      input[type$="ord"] {
+        width: 315px;
+        height: 45px;
+        background-color: #A9A9A9;
+        border-color: #ff0000;
+        border: 1px solid;
+        border-radius: 4px;
+        margin-left: 25px;
+        outline: none;
+
+      }
+
+      .label3 {
+        margin-left: 25px;
+        color: white;
+      }
+
+      .place3::placeholder {
+        color: #ff0000;
+      }
+
+      
+      #inputtt {
+        width: 315px;
+        height: 100px;
+        background-color: #A9A9A9;
+        border-color: #E0E0E0;
+        border: 1px solid;
+        border-radius: 4px;
+        margin-left: 25px;
+        outline: none;
+        resize: none;
+        
+        
+      }
+
+
+      
+
+      .label4 {
+        margin-left: 25px;
+        color: white;
+      }
+
+      textarea::placeholder {
+        color:#FFD43A;
+        
+      }
+
+      .button {
+        width: 315px;
+        height: 45px;
+        background-color: #FFD43A;
+        border: 0;
+        margin-left: 27px;
+        border-radius: 10px;
+        color: black;
+        font-weight: bold;
+        
+        
+      }
+
+      
+
+
+
+
+        
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container"> <br>
+        
+        <label class="label1">Name</label> 
+ <br>
+             <input  type="text"  placeholder="Alex Thesleff" >
+<br><br>
+                <label class="label2">Mobile Number</label>
+<br>
+                    <input type="number" placeholder="+995 ...">
+<br><br>
+                        <label class="label3">Password</label>
+
+                    <input type="password" placeholder="*********" class="place3">
+<br>
+                <br> <label class="label4">Your Bio</label>
+
+            <textarea id="inputtt"  type="text" placeholder="text..."></textarea>
+<br>
+       <br> <button class="button">Sign in</button>
+    
+    </div>
+</body>
+</html>
